@@ -1,0 +1,123 @@
+<<<<<<< HEAD
+*{
+    margin:0%;
+}
+
+.frame { /* Centred frame */
+    position: fixed;
+    width: auto;
+    display: block;
+    margin-left: 10%;
+    margin-right: 10%;  
+    top:10%;
+    z-index:-10;
+}
+
+
+.logo {
+    position:fixed;
+    display: block;
+    margin-left: 20%;
+    margin-right: 20%;
+    z-index:-1;
+    
+}
+.pose { 
+    position: fixed;
+    width: auto;
+    z-index: 1;
+    opacity:0.5;
+    filter:blur(15px);
+    z-index:-10;
+}
+
+.scroll { /* just scrolls in the website */
+    position: absolute;
+    width: auto;
+    display: block;
+    z-index:-4;
+}
+
+.content {
+    clear: both;
+    display: table;
+    float:top;
+    padding:10%;
+    margin-left:5%;
+    width:70%;
+    z-index:0;
+}
+
+#defaultCanvas0{
+	margin-left:20vw;	
+=======
+body{
+	height:3000px;
+  	background-color:rgba(0,255,0);
+  	position:fixed;
+}
+
+#defaultCanvas0{
+	margin-top:5%;
+	margin-left:5%;	
+>>>>>>> f0e91c14619e152c5a77a10d562afacb4d07fce2
+	width:100%;
+	z-index:1000;
+	position:absolute;
+	top:95%;
+}
+
+<<<<<<< HEAD
+#defaultCanvas1{
+	margin-left:20vw;	
+	width:100%;
+	z-index:1000;
+	position:absolute;
+	top:200%;
+}
+
+/*#defaultCanvas2{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+#defaultCanvas3{
+	margin-top:6vh;
+	margin-left:23vw;	
+}
+
+#defaultCanvas4{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+
+#defaultCanvas5{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+#defaultCanvas6{
+	margin-top:6vh;
+	margin-left:23vw;	
+}
+
+#defaultCanvas7{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+
+#defaultCanvas8{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+#defaultCanvas9{
+	margin-top:6vh;
+	margin-left:23vw;	
+}
+
+#defaultCanvas10{
+	margin-top:6vh;
+	margin-left:23vw;
+}
+=======
+>>>>>>> f0e91c14619e152c5a77a10d562afacb4d07fce2
+
+*/
